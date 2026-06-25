@@ -18,26 +18,29 @@ const FOOTER_COLUMNS = [
     title: 'Company',
     links: [
       { label: 'Home', to: '/' },
-      { label: 'About Us', to: '/#about' },
+      { label: 'Blog Articles', to: '/blog' },
+      { label: 'FAQs (AEO)', to: '/faqs' },
       { label: 'Contact Us', to: '/#contact' },
-      { label: 'Projects', to: '/#projects' },
-    ],
-  },
-  {
-    title: 'Products',
-    links: [
-      { label: 'Lift Types', to: '/#products' },
-      { label: 'Elevator Configurations', to: '/#products' },
-      { label: 'Door Systems', to: '/#products' },
-      { label: 'Cabin Designs', to: '/#products' },
     ],
   },
   {
     title: 'Services',
     links: [
-      { label: 'Modernization', to: '/#services' },
-      { label: 'Maintenance', to: '/#services' },
-      { label: 'Spare Parts', to: '/#services' },
+      { label: 'Home Elevators', to: '/services/home-elevators' },
+      { label: 'Passenger Lifts', to: '/services/passenger-lifts' },
+      { label: 'Hospital Lifts', to: '/services/hospital-lifts' },
+      { label: 'Lift Maintenance', to: '/services/elevator-maintenance' },
+      { label: 'Modernization', to: '/services/lift-modernization' },
+    ],
+  },
+  {
+    title: 'Service Areas',
+    links: [
+      { label: 'Kadapa', to: '/locations/kadapa' },
+      { label: 'Proddatur', to: '/locations/proddatur' },
+      { label: 'Rajampet', to: '/locations/rajampet' },
+      { label: 'Rayachoti', to: '/locations/rayachoti' },
+      { label: 'Pulivendula', to: '/locations/pulivendula' },
     ],
   },
 ]
@@ -95,7 +98,7 @@ export default function Footer() {
               </p>
 
               <a
-                href="tel:+910000000000"
+                href="tel:+919247932351"
                 className="inline-flex items-center gap-2 rounded-full bg-red-600 px-6 py-3 text-sm font-semibold tracking-[0.08em] text-white transition-all duration-300 hover:scale-[1.03] hover:bg-white hover:text-black"
               >
                 Let&apos;s Talk

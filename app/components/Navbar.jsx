@@ -61,11 +61,14 @@ export default function Navbar() {
                                 <Link href="/#products" className="transition hover:text-red-600">
                                     Products
                                 </Link>
-                                <Link href="/#services" className="transition hover:text-red-600">
+                                <Link href="/services/home-elevators" className="transition hover:text-red-600">
                                     Services
                                 </Link>
-                                <Link href="/#projects" className="transition hover:text-red-600">
-                                    Projects
+                                <Link href="/blog" className="transition hover:text-red-600">
+                                    Blog
+                                </Link>
+                                <Link href="/faqs" className="transition hover:text-red-600">
+                                    FAQs
                                 </Link>
                                 <Link href="/#contact" className="transition hover:text-red-600">
                                     Contact
@@ -74,7 +77,7 @@ export default function Navbar() {
 
                             {/* Desktop CTA Button */}
                             <a
-                                href="tel:+9100000000000"
+                                href="tel:+919247932351"
                                 className="hidden rounded-full bg-red-600 px-5 py-2 text-sm font-medium text-white shadow-md transition hover:bg-red-700 hover:shadow-lg md:block whitespace-nowrap"
                             >
                                 Book Free Consultation
@@ -110,18 +113,25 @@ export default function Navbar() {
                                     Products
                                 </Link>
                                 <Link
-                                    href="/#services"
+                                    href="/services/home-elevators"
                                     onClick={() => setOpen(false)}
                                     className="py-3 px-2 transition active:bg-black/5 rounded-lg active:text-red-600"
                                 >
                                     Services
                                 </Link>
                                 <Link
-                                    href="/#projects"
+                                    href="/blog"
                                     onClick={() => setOpen(false)}
                                     className="py-3 px-2 transition active:bg-black/5 rounded-lg active:text-red-600"
                                 >
-                                    Projects
+                                    Blog
+                                </Link>
+                                <Link
+                                    href="/faqs"
+                                    onClick={() => setOpen(false)}
+                                    className="py-3 px-2 transition active:bg-black/5 rounded-lg active:text-red-600"
+                                >
+                                    FAQs
                                 </Link>
                                 <Link
                                     href="/#contact"
@@ -132,7 +142,7 @@ export default function Navbar() {
                                 </Link>
                                 <div className="pt-3 px-2">
                                     <a
-                                        href="tel:+91000000000000"
+                                        href="tel:+919247932351"
                                         onClick={() => setOpen(false)}
                                         className="block w-full text-center rounded-xl bg-red-600 px-5 py-3 font-medium text-white shadow-md transition active:bg-red-700"
                                     >
