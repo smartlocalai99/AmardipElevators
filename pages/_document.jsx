@@ -1,0 +1,13 @@
+import { Html, Head, Main, NextScript } from "next/document";
+
+export default function Document() {
+  return (
+    <Html lang="en" className="h-full antialiased">
+      <Head />
+      <body className="min-h-screen w-full overflow-x-hidden antialiased">
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
+}
