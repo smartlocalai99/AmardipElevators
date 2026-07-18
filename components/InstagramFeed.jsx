@@ -97,7 +97,7 @@ export default function InstagramFeed() {
         )}
 
         {!isLoading && !error && posts.length > 0 && (
-          <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
             {posts.map((post) => (
               <a
                 key={post.id}
@@ -105,7 +105,7 @@ export default function InstagramFeed() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={post.caption || 'Open Instagram post'}
-                className="group relative aspect-square overflow-hidden rounded-lg bg-neutral-100"
+                className="group relative aspect-square overflow-hidden rounded-xl bg-neutral-100 transition-all duration-300 hover:scale-[1.03] shadow-sm hover:shadow-md"
               >
                 {post.preview_url ? (
                   <img
@@ -123,8 +123,8 @@ export default function InstagramFeed() {
                 <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/35" />
 
                 {post.media_type === 'VIDEO' && (
-                  <span className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-black/70 text-white">
-                    <FaPlay size={13} />
+                  <span className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-black/70 text-white">
+                    <FaPlay size={11} />
                   </span>
                 )}
               </a>
