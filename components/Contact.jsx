@@ -3,9 +3,9 @@
 import React from 'react'
 
 import {
-    FaEnvelope,
     FaPhoneAlt,
     FaClock,
+    FaMapMarkerAlt,
 } from "react-icons/fa"
 
 export default function ContactSection() {
@@ -72,21 +72,18 @@ export default function ContactSection() {
 
                         </div>
 
-                        {/* Email & Hours Column */}
+                        {/* Visit & Hours Column */}
                         <div className="rounded-2xl border border-neutral-200 bg-white p-6 md:p-8 shadow-sm space-y-10 md:space-y-12">
 
                             <div>
                                 <div className="mb-4 flex items-center gap-3 text-[#E10600]">
-                                    <FaEnvelope size={20} />
-                                    <h3 className="text-lg md:text-xl font-bold">Email</h3>
+                                    <FaMapMarkerAlt size={20} />
+                                    <h3 className="text-lg md:text-xl font-bold">Service Area</h3>
                                 </div>
 
-                                <a
-                                    href="mailto:amardipelevators@gmail.com"
-                                    className="text-[14px] md:text-[15px] font-medium leading-relaxed text-neutral-500 hover:text-[#E10600] transition"
-                                >
-                                    amardipelevators@gmail.com
-                                </a>
+                                <p className="text-[14px] md:text-[15px] font-medium leading-relaxed text-neutral-500">
+                                    Kadapa, Proddatur, Rajampet, Rayachoti, Pulivendula, and nearby areas.
+                                </p>
                             </div>
 
                             <div>

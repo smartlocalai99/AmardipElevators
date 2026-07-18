@@ -10,7 +10,6 @@ export const BUSINESS_DETAILS = {
   legalName: "Amardip Elevators",
   phone: "+91 9247932351",
   alternatePhone: "+91 9247932352",
-  email: "amardipelevators@gmail.com",
   address: {
     streetAddress: "Brand No. 9, Corporation Complex, B.S. Road",
     addressLocality: "Kadapa",
@@ -492,7 +491,6 @@ export function getLocalBusinessSchema() {
     "name": BUSINESS_DETAILS.name,
     "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=600&auto=format&fit=crop",
     "telephone": BUSINESS_DETAILS.phone,
-    "email": BUSINESS_DETAILS.email,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": BUSINESS_DETAILS.address.streetAddress,

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 import FloatingCTA from "@/components/FloatingCTA";
+import QuoteModalProvider from "@/components/QuoteModalProvider";
 import { getLocalBusinessSchema, getOrganizationSchema } from "@/data/seoConfig";
 import "@/styles/globals.css";
 
@@ -34,6 +35,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png" />
         <link rel="apple-touch-icon" sizes="192x192" href="/icon-192.png" />
         <meta property="og:title" content="Amardeep Elevators | Best Lift & Elevator Company in Kadapa" />
         <meta
@@ -53,6 +55,7 @@ export default function App({ Component, pageProps }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localSchema) }} />
       </Head>
       <Component {...pageProps} />
+      <QuoteModalProvider />
       <FloatingCTA />
     </div>
   );

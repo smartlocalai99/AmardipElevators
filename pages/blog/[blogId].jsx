@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { openQuoteModal } from "@/components/QuoteModalProvider";
 import { BLOGS_DATA, getBreadcrumbSchema } from "@/data/seoConfig";
 
 export default function BlogDetailPage({ blog }) {
@@ -143,12 +144,13 @@ export default function BlogDetailPage({ blog }) {
               >
                 Call +91 9247932351
               </a>
-              <Link
-                href="/quote"
+              <button
+                type="button"
+                onClick={openQuoteModal}
                 className="bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 text-white font-bold py-3 px-8 rounded-full transition w-full sm:w-auto"
               >
                 Request Free Quote
-              </Link>
+              </button>
             </div>
           </div>
         </article>

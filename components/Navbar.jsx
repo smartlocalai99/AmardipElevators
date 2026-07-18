@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../assets/Final_Logo_red.webp";
+import { openQuoteModal } from "./QuoteModalProvider";
 
 
 export default function Navbar() {
@@ -76,13 +77,13 @@ export default function Navbar() {
                             </nav>
 
                             {/* Desktop CTA Button */}
-                            <Link
-                                href="/quote"
-                                prefetch={false}
+                            <button
+                                type="button"
+                                onClick={openQuoteModal}
                                 className="hidden rounded-full bg-red-600 px-5 py-2 text-sm font-medium text-white shadow-md transition hover:bg-red-700 hover:shadow-lg md:block whitespace-nowrap"
                             >
                                 Request A Quote
-                            </Link>
+                            </button>
 
                             {/* Mobile Hamburger Toggle */}
                             <button
@@ -143,14 +144,16 @@ export default function Navbar() {
                                     Contact
                                 </Link>
                                 <div className="pt-3 px-2">
-                                    <Link
-                                        href="/quote"
-                                        prefetch={false}
-                                        onClick={() => setOpen(false)}
+                                    <button
+                                        type="button"
+                                        onClick={() => {
+                                            setOpen(false);
+                                            openQuoteModal();
+                                        }}
                                         className="block w-full text-center rounded-xl bg-red-600 px-5 py-3 font-medium text-white shadow-md transition active:bg-red-700"
                                     >
                                         Request A Quote
-                                    </Link>
+                                    </button>
                                 </div>
                             </nav>
                         </div>

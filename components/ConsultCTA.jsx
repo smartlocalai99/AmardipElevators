@@ -1,8 +1,8 @@
 'use client'
 
-import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowUpRight, ArrowRight } from 'lucide-react'
+import { openQuoteModal } from './QuoteModalProvider'
 
 import SupportGirl from '../assets/Support_Girl.png'
 
@@ -76,9 +76,9 @@ export default function ConsultCTA() {
                 </div>
 
                 {/* CTA 2 */}
-                <Link
-                  href="/quote"
-                  prefetch={false}
+                <button
+                  type="button"
+                  onClick={openQuoteModal}
                   className="
       inline-flex items-center gap-3
       rounded-full
@@ -91,7 +91,7 @@ export default function ConsultCTA() {
                 >
                   <span className="font-semibold">Get Quotation</span>
                   <ArrowRight size={20} />
-                </Link>
+                </button>
 
                 </div>
               </div>

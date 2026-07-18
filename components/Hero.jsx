@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import HeroImg from "../assets/Hero_img.webp";
+import { openQuoteModal } from "./QuoteModalProvider";
 
 export default function Hero() {
     return (
@@ -38,13 +38,13 @@ export default function Hero() {
                     {/* Buttons */}
                     <div className="mt-8 flex flex-col gap-4 sm:flex-row">
 
-                        <Link
-                            href="/quote"
-                            prefetch={false}
+                        <button
+                            type="button"
+                            onClick={openQuoteModal}
                             className="inline-flex items-center justify-center rounded-full bg-red-600 px-8 py-3 font-medium text-white transition hover:bg-red-700"
                         >
                             Request A Quote
-                        </Link>
+                        </button>
 
                         <a
                             href="tel:+919247932351"

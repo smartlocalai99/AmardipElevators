@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { openQuoteModal } from "@/components/QuoteModalProvider";
 import { SERVICES_DATA, BUSINESS_DETAILS, getServiceSchema, getBreadcrumbSchema } from "@/data/seoConfig";
 
 export default function ServicePage({ service }) {
@@ -59,12 +60,13 @@ export default function ServicePage({ service }) {
               >
                 Inquire Now
               </a>
-              <Link
-                href="/quote"
+              <button
+                type="button"
+                onClick={openQuoteModal}
                 className="bg-transparent hover:bg-white hover:text-black border border-white text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block text-center"
               >
                 Get Free Quote
-              </Link>
+              </button>
             </div>
           </div>
           <div className="relative h-[300px] md:h-[450px] w-full overflow-hidden rounded-3xl shadow-2xl border border-neutral-800">

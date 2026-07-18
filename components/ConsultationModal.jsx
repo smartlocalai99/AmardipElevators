@@ -6,7 +6,6 @@ import { FaTimes } from 'react-icons/fa'
 
 const INITIAL_FORM = {
     name: '',
-    email: '',
     mobile: '',
     buildingType: BUILDING_TYPES[0],
     liftType: LIFT_TYPES[0],
@@ -148,11 +147,6 @@ export default function ConsultationModal({ isOpen, onClose }) {
                                         <label className="text-xs font-semibold uppercase tracking-wider text-zinc-500">Mobile Number</label>
                                         <input required type="tel" value={form.mobile} onChange={handleChange('mobile')} className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder-zinc-600 transition focus:border-red-500 focus:bg-white/10 focus:outline-none" placeholder="+91 90000 00000" />
                                     </div>
-                                </div>
-
-                                <div className="flex flex-col gap-2">
-                                    <label className="text-xs font-semibold uppercase tracking-wider text-zinc-500">Email Address</label>
-                                    <input required type="email" value={form.email} onChange={handleChange('email')} className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder-zinc-600 transition focus:border-red-500 focus:bg-white/10 focus:outline-none" placeholder="john@example.com" />
                                 </div>
 
                                 <div className="grid gap-6 sm:grid-cols-2">

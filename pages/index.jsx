@@ -10,12 +10,14 @@ import KadapaReviewsMap from "@/components/KadapaReviewsMap";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import InstagramFeed from "@/components/InstagramFeed";
 
 export default function Home() {
   return (
     <main className="bg-black min-h-screen w-full overflow-x-hidden">
       <Navbar />
       <Hero />
+      <InstagramFeed />
       <Stats />
       <ProductSection />
       <ConsultCTA />

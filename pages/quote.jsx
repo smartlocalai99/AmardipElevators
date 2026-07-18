@@ -86,7 +86,6 @@ function FormField({
 
 const INITIAL_FORM = {
   name: '',
-  email: '',
   mobile: '',
   buildingType: BUILDING_TYPES[0],
   liftType: LIFT_TYPES[0],
@@ -143,15 +142,6 @@ export default function QuotePage() {
                 placeholder="Enter your full name"
                 value={form.name}
                 onChange={handleChange('name')}
-                required
-              />
-
-              <FormField
-                label="Email"
-                type="email"
-                placeholder="Enter your email"
-                value={form.email}
-                onChange={handleChange('email')}
                 required
               />
 
