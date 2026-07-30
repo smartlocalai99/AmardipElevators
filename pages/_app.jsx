@@ -1,1 +1,5 @@
-export default function () { return <div>Placeholder for _app</div>; }
+import "@/styles/globals.css";
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+}
