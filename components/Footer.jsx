@@ -46,7 +46,7 @@ const FOOTER_COLUMNS = [
 ]
 
 const SOCIAL_ICONS = [
-  { Icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/amardipelevators/' },
+  { Icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/amardip.elevators/' },
   { Icon: FaFacebook, label: 'Facebook', href: '#' },
   { Icon: FaTwitter, label: 'Twitter', href: '#' },
   { Icon: FaYoutube, label: 'YouTube', href: 'https://www.youtube.com/@amardipelevators3458/' },

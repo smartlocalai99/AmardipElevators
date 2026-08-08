@@ -7,6 +7,7 @@ import ServicesSection from "@/components/ServicesSection";
 import ProjectsGallery from "@/components/ProjectsGallery";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import KadapaReviewsMap from "@/components/KadapaReviewsMap";
+import GoogleReviewsSection from "@/components/GoogleReviewsSection";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -23,6 +24,7 @@ export default function Home() {
       <ConsultCTA />
       <ServicesSection />
       <ProjectsGallery />
+      <GoogleReviewsSection />
       <KadapaReviewsMap />
       <WhyChooseUs />
       <FAQ />

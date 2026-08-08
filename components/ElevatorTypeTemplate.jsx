@@ -36,10 +36,6 @@ export default function ElevatorTypeTemplate({ product }) {
                                     Let&apos;s Talk
                                 </button>
 
-                                <button className="rounded-full border border-black/0.1 px-8 py-4 font-semibold transition hover:bg-black hover:text-white border border-black/0.1">
-                                    Download Brochure
-                                </button>
-
                             </div>
 
                         </div>

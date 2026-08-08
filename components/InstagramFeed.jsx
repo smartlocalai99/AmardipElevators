@@ -72,7 +72,7 @@ export default function InstagramFeed() {
           </div>
 
           <a
-            href="https://www.instagram.com/amardipelevators/"
+            href="https://www.instagram.com/amardip.elevators/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-full border border-black/10 px-6 py-3 text-sm font-semibold text-black transition-all duration-300 hover:border-red-600 hover:bg-red-600 hover:text-white"

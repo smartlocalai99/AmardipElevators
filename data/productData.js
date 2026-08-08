@@ -208,7 +208,7 @@ export const PRODUCT_CONTENT = {
         title: 'MANUAL DOORS',
         buttonText: 'Explore ➔',
         image: ManualDoor,
-        largeImage: 'https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1200&auto=format&fit=crop',
+        largeImage: ManualDoor,
         description: 'Manual door systems are designed for durability, simplicity, and cost efficiency, offering reliable operation in low to medium traffic elevator installations.',
         mainIcons: [
           { label: 'High\nPerformance', icon: 'trend-up' },
@@ -232,7 +232,7 @@ export const PRODUCT_CONTENT = {
         title: 'AUTOMATIC DOORS',
         buttonText: 'Explore ➔',
         image: AutoDoor,
-        largeImage: 'https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1200&auto=format&fit=crop',
+        largeImage: AutoDoor,
         description: 'Automatic door systems are designed for smooth, safe, and efficient passenger movement, offering enhanced convenience, precision, and reliability in modern elevator installations.',
         mainIcons: [
           { label: 'High\nPerformance', icon: 'trend-up' },
@@ -240,11 +240,21 @@ export const PRODUCT_CONTENT = {
           { label: 'Easy Maintenance', icon: 'cog' }
         ],
         features: [
-          'Durable & Long-\nLasting Performance',
+          'Durable & Long-Lasting Performance',
           'Smooth and reliable automatic operation',
           'Ideal for passenger and goods elevators',
           'High-efficiency door drive system',
           'Low maintenance and energy-efficient performance'
+        ],
+        types: [
+          'SS NO VISION',
+          'SS SMALL VISION',
+          'SS HALF VISION',
+          'SS FULL VISION',
+          'MS NO VISION',
+          'MS SMALL VISION',
+          'MS HALF VISION',
+          'MS FULL VISION'
         ]
       }
     ]
@@ -285,7 +295,7 @@ export const PRODUCT_CONTENT = {
         title: 'SS CABIN',
         buttonText: 'Explore ➔',
         image: SsCabin,
-        largeImage: 'https://images.unsplash.com/photo-1517022812141-23320338b2cb?q=80&w=1200&auto=format&fit=crop',
+        largeImage: SsCabin,
         description: 'SS (Stainless Steel) cabin interiors are designed for premium aesthetics, corrosion resistance, and long-lasting shine, making them ideal for modern residential, commercial, and high-end architectural spaces.',
         mainIcons: [
           { label: 'High\nPerformance', icon: 'trend-up' },

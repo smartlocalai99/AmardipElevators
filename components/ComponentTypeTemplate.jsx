@@ -79,9 +79,34 @@ object-cover
 
                 </div>
 
+                {/* Types / Variants */}
+                {product.types && product.types.length > 0 && (
+                    <div className="mt-16 border-t border-neutral-200 pt-12">
+                        <h3 className="mb-8 text-2xl font-bold uppercase tracking-tight text-black">
+                            Available Types & Vision Panels
+                        </h3>
+
+                        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
+                            {product.types.map((typeName, index) => (
+                                <div
+                                    key={index}
+                                    className="flex items-center gap-3 rounded-2xl bg-white border border-neutral-200 p-5 shadow-[0_4px_20px_rgba(0,0,0,0.03)]"
+                                >
+                                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-red-50 text-xs font-bold text-red-600">
+                                        {index + 1}
+                                    </span>
+                                    <span className="font-semibold text-neutral-800">
+                                        {typeName}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
                 {/* Features */}
                 {product.features && (
-                    <div className="mt-20 border-t border-neutral-800 pt-12">
+                    <div className="mt-16 border-t border-neutral-200 pt-12">
                         <h3 className="mb-10 text-xl font-semibold text-red-500">
                             Features
                         </h3>

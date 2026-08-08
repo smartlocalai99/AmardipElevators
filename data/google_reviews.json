@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Zakir Hussain",
+    "initial": "Z",
+    "bgColor": "bg-blue-600",
+    "location": "Gowtama Buddha Township, Kadapa",
+    "rating": 5,
+    "date": "Feb 2025",
+    "comment": "I recently had a 6 passenger lift installed by Amardip Elevators in Gowtama Buddha Township, Kadapa. Excellent installation, smooth operation, and great service!"
+  },
+  {
+    "id": "2",
+    "name": "Prasad Reddy",
+    "initial": "P",
+    "bgColor": "bg-emerald-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Jul 2025",
+    "comment": "We recently installed an elevator in our house and we are extremely satisfied with the quality and smooth operation. The team was professional and prompt."
+  },
+  {
+    "id": "3",
+    "name": "Ajay Mesa",
+    "initial": "A",
+    "bgColor": "bg-purple-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Jul 2025",
+    "comment": "Professional team with good leader. Work was completed with more emphasis on quality rather than timelines. I would highly recommend Amardip Elevators."
+  },
+  {
+    "id": "4",
+    "name": "Vidyananda Reddy",
+    "initial": "V",
+    "bgColor": "bg-amber-600",
+    "location": "Kadapa (Local Guide)",
+    "rating": 5,
+    "date": "Jul 2025",
+    "comment": "Good service and excellent response time. Highly satisfied with the elevator installation."
+  },
+  {
+    "id": "5",
+    "name": "Ramnath Reddy",
+    "initial": "R",
+    "bgColor": "bg-indigo-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Jun 2025",
+    "comment": "Amardip Elevators Erection and Quality is Excellent and they give Safety the Higher priority."
+  },
+  {
+    "id": "6",
+    "name": "Venkat N",
+    "initial": "V",
+    "bgColor": "bg-rose-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Oct 2022",
+    "comment": "I have enquired about the services and explained all in detail with patience. Good staff and friendly people. Overall great experience!"
+  },
+  {
+    "id": "7",
+    "name": "Narendra Choppa",
+    "initial": "N",
+    "bgColor": "bg-teal-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Oct 2022",
+    "comment": "The quality and service are good."
+  },
+  {
+    "id": "8",
+    "name": "Vamshi Chaithanya",
+    "initial": "V",
+    "bgColor": "bg-cyan-600",
+    "location": "Kadapa (Local Guide)",
+    "rating": 5,
+    "date": "Mar 2022",
+    "comment": "We got lift installed by Amardip Elevators. It was very smooth procedure. The owner Amardip sir was very cool and supportive throughout the project."
+  },
+  {
+    "id": "9",
+    "name": "Ram Acholu",
+    "initial": "R",
+    "bgColor": "bg-orange-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Mar 2022",
+    "comment": "Technically excellent, fast work, good service."
+  },
+  {
+    "id": "10",
+    "name": "Meruva Chandrasekhar",
+    "initial": "M",
+    "bgColor": "bg-blue-700",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "2025",
+    "comment": "5-star rating for Amardip Elevators. Excellent service and support!"
+  },
+  {
+    "id": "11",
+    "name": "Saraswathi Duggireddy",
+    "initial": "S",
+    "bgColor": "bg-pink-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Jul 2025",
+    "comment": "5-star customer review on Google Maps for Amardip Elevators."
+  },
+  {
+    "id": "12",
+    "name": "Thaheer Shaik",
+    "initial": "T",
+    "bgColor": "bg-lime-600",
+    "location": "Kadapa",
+    "rating": 5,
+    "date": "Jul 2025",
+    "comment": "5-star rating! Reliable elevator service in Kadapa."
+  }
+]
