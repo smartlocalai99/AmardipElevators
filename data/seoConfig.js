@@ -278,6 +278,24 @@ export const LOCATIONS_DATA = [
     challenges: "Industrial dust is a major obstacle. Our Jammalamadugu configurations feature dust-sealed control panels, heavy-duty door tracks, and sealed bearings.",
     projects: "Supplied heavy-duty freight lifts to processing facilities in the Jammalamadugu region.",
   },
+  {
+    id: "tirupati",
+    name: "Tirupati",
+    title: "Elevator & Lift Services in Tirupati | Amardip Elevators",
+    metaDescription: "Trusted elevator installation and maintenance in Tirupati. Home lifts, hotel and lodge passenger elevators, and fast AMC support for pilgrims' city.",
+    intro: "Tirupati's steady flow of pilgrims and visitors keeps hotels, lodges, and commercial complexes running at high capacity. Amardip Elevators supplies reliable passenger lifts built for continuous, high-traffic use.",
+    challenges: "With near-constant footfall in hospitality buildings, our Tirupati installations use heavy-duty door operators and reinforced components rated for high daily trip counts.",
+    projects: "Passenger elevators installed in hotels, lodges, and residential apartments across Tirupati.",
+  },
+  {
+    id: "hyderabad",
+    name: "Hyderabad",
+    title: "Elevator & Lift Services in Hyderabad | Amardip Elevators",
+    metaDescription: "Elevator installation, modernization, and AMC services in Hyderabad. High-rise passenger lifts, MRL systems, and commercial elevators for apartments and offices.",
+    intro: "Hyderabad's high-rise apartments and commercial towers call for fast, energy-efficient elevator systems. Amardip Elevators brings the same engineering standards from Kadapa to Hyderabad's growing skyline.",
+    challenges: "Taller buildings in Hyderabad need higher-speed traction systems and intelligent group control to manage peak-hour traffic efficiently.",
+    projects: "Passenger and Machine Room-Less (MRL) elevator installations in apartment complexes and commercial buildings across Hyderabad.",
+  },
 ]
 
 export const BLOGS_DATA = [

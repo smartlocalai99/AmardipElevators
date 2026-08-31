@@ -34,7 +34,7 @@ export default function Hero() {
                     </h1>
 
                     <p className="mt-6 max-w-xl text-sm leading-relaxed text-neutral-300 sm:text-base md:text-lg">
-                        Smart, safe, and energy-efficient home lifts, passenger elevators, and AMC services built for residential, commercial, and healthcare spaces across Andhra Pradesh.
+                        Smart, safe, and energy-efficient home lifts, passenger elevators, and AMC services built for residential, commercial, and healthcare spaces across Andhra Pradesh & Telangana.
                     </p>
 
                     {/* Buttons */}

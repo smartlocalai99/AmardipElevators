@@ -82,7 +82,7 @@ export default function ContactSection() {
                                 </div>
 
                                 <p className="text-[14px] md:text-[15px] font-medium leading-relaxed text-neutral-500">
-                                    Kadapa, Proddatur, Rajampet, Rayachoti, Pulivendula, and nearby areas.
+                                    Kadapa, Proddatur, Rajampet, Rayachoti, Pulivendula, Tirupati, Hyderabad, and nearby areas.
                                 </p>
                             </div>
 
