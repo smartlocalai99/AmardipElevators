@@ -39,6 +39,7 @@ const FOOTER_COLUMNS = [
       { label: 'Rajampet', to: '/locations/rajampet' },
       { label: 'Rayachoti', to: '/locations/rayachoti' },
       { label: 'Pulivendula', to: '/locations/pulivendula' },
+      { label: 'Jammalamadugu', to: '/locations/jammalamadugu' },
     ],
   },
 ]
