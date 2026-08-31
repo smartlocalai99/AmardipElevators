@@ -149,7 +149,7 @@ object-cover
                         </p>
 
                         <a
-                            href="tel:+919063857857"
+                            href="tel:+919247932351"
                             className="
     mt-8
     inline-block

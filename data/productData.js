@@ -52,14 +52,6 @@ export const PRODUCT_CONTENT = {
           { label: 'Energy Efficient', subLabel: 'Low Power Consumption', icon: 'battery' },
           { label: 'Smart Systems', subLabel: 'Intelligent Control Technology', icon: 'cog' },
         ],
-        experiences: [
-          'https://picsum.photos/200/300?random=1',
-          'https://picsum.photos/200/300?random=2',
-          'https://picsum.photos/200/300?random=3',
-          'https://picsum.photos/200/300?random=4',
-          'https://picsum.photos/200/300?random=5',
-          'https://picsum.photos/200/300?random=6',
-        ],
         specs: [
           { icon: 'settings', label: 'Traction', value: 'Gear / GearLess' },
           { icon: 'box', label: 'Room', value: 'Required / Not Required' },
@@ -95,16 +87,6 @@ export const PRODUCT_CONTENT = {
           { label: 'Antibacterial Cabin', subLabel: 'Hygienic materials for infection-free environments', icon: 'door' },
           { label: 'Energy Efficient', subLabel: 'Low Power consumption With High Performance', icon: 'battery' },
           { label: 'Smart Systems', subLabel: 'Intelligent monitoring and control systems', icon: 'cog' },
-        ],
-        experiences: [
-          'https://picsum.photos/200/300?random=1',
-          'https://picsum.photos/200/300?random=2',
-          'https://picsum.photos/200/300?random=3',
-          'https://picsum.photos/200/300?random=4',
-          'https://picsum.photos/200/300?random=5',
-          'https://picsum.photos/200/300?random=6',
-          'https://picsum.photos/200/300?random=7',
-          'https://picsum.photos/200/300?random=8',
         ],
         specs: [
           { icon: 'settings', label: 'Traction', value: 'Gear / GearLess' },

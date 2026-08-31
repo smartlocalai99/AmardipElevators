@@ -7,9 +7,7 @@ import Image from 'next/image'
 import Logo_Footer from "../assets/Final_Logo_red.webp"
 import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 import {
-  FaFacebook,
   FaInstagram,
-  FaTwitter,
   FaYoutube,
 } from "react-icons/fa"
 
@@ -19,7 +17,7 @@ const FOOTER_COLUMNS = [
     links: [
       { label: 'Home', to: '/' },
       { label: 'Blog Articles', to: '/blog' },
-      { label: 'FAQs (AEO)', to: '/faqs' },
+      { label: 'FAQs', to: '/faqs' },
       { label: 'Contact Us', to: '/#contact' },
     ],
   },
@@ -47,8 +45,6 @@ const FOOTER_COLUMNS = [
 
 const SOCIAL_ICONS = [
   { Icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/amardip.elevators/' },
-  { Icon: FaFacebook, label: 'Facebook', href: '#' },
-  { Icon: FaTwitter, label: 'Twitter', href: '#' },
   { Icon: FaYoutube, label: 'YouTube', href: 'https://www.youtube.com/@amardipelevators3458/' },
 ]
 

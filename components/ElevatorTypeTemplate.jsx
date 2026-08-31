@@ -32,7 +32,7 @@ export default function ElevatorTypeTemplate({ product }) {
 
                             <div className="mt-10 flex flex-wrap gap-4">
 
-                                <button onClick={() => window.location.href = "tel:+919063857857"} className="rounded-full text-white bg-red-600 px-8 py-4 font-semibold transition hover:bg-red-500 border hover:border-red-500">
+                                <button onClick={() => window.location.href = "tel:+919247932351"} className="rounded-full text-white bg-red-600 px-8 py-4 font-semibold transition hover:bg-red-500 border hover:border-red-500">
                                     Let&apos;s Talk
                                 </button>
 
@@ -234,7 +234,7 @@ shadow-[0_10px_40px_rgba(0,0,0,0.04)]
                                 Engineered for luxury residences, commercial buildings and premium architectural spaces.
                             </p>
 
-                            <button onClick={() => window.location.href = "tel:+919063857857"} className="mt-10 rounded-full bg-red-600 px-10 py-4 font-semibold text-white transition hover:scale-105">
+                            <button onClick={() => window.location.href = "tel:+919247932351"} className="mt-10 rounded-full bg-red-600 px-10 py-4 font-semibold text-white transition hover:scale-105">
                                 Contact US
                             </button>
 
