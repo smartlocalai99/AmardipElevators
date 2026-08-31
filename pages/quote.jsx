@@ -122,7 +122,7 @@ export default function QuotePage() {
         </p>
 
         <h1 className="text-4xl font-extrabold uppercase text-black md:text-5xl lg:text-6xl">
-          Request A Quote
+          Get A Price
         </h1>
 
         <p className="mt-6 max-w-2xl text-black/60">
@@ -191,7 +191,7 @@ export default function QuotePage() {
               type="submit"
               className="w-full max-w-md rounded-full bg-red-600 px-8 py-4 text-sm font-semibold uppercase tracking-[0.15em] text-white shadow-lg transition hover:bg-black"
             >
-              Request A Free Quote
+              Get A Price
             </button>
 
             {submitted && (

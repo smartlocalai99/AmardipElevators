@@ -45,7 +45,7 @@ export default function Hero() {
                             onClick={openQuoteModal}
                             className="inline-flex items-center justify-center rounded-full bg-red-600 px-8 py-3 font-medium text-white transition hover:bg-red-700"
                         >
-                            Request A Quote
+                            Get A Price
                         </button>
 
                         <a

@@ -184,7 +184,7 @@ export default function ConsultationModal({ isOpen, onClose }) {
                     {/* Right Side - Form */}
                     <div className="relative p-6 sm:p-12">
                         <div className="lg:hidden mb-8">
-                            <span className="text-xs font-semibold uppercase tracking-widest text-red-600">Request A Quote</span>
+                            <span className="text-xs font-semibold uppercase tracking-widest text-red-600">Get A Price</span>
                             <h2 className="mt-2 text-3xl font-semibold text-black">Project Pricing</h2>
                             <a
                                 href="tel:+919247932351"

@@ -82,7 +82,7 @@ export default function Navbar() {
                                 onClick={openQuoteModal}
                                 className="hidden rounded-full bg-red-600 px-5 py-2 text-sm font-medium text-white shadow-md transition hover:bg-red-700 hover:shadow-lg md:block whitespace-nowrap"
                             >
-                                Request A Quote
+                                Get A Price
                             </button>
 
                             {/* Mobile Hamburger Toggle */}
@@ -152,7 +152,7 @@ export default function Navbar() {
                                         }}
                                         className="block w-full text-center rounded-xl bg-red-600 px-5 py-3 font-medium text-white shadow-md transition active:bg-red-700"
                                     >
-                                        Request A Quote
+                                        Get A Price
                                     </button>
                                 </div>
                             </nav>

@@ -136,7 +136,7 @@ export default function BlogDetailPage({ blog }) {
                 onClick={openQuoteModal}
                 className="w-full rounded-full border border-black/10 px-8 py-3 font-semibold text-black transition hover:bg-black hover:text-white sm:w-auto"
               >
-                Request Free Quote
+                Get A Price
               </button>
             </div>
           </div>

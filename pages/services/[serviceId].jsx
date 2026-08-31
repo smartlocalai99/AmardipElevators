@@ -65,7 +65,7 @@ export default function ServicePage({ service }) {
                     onClick={openQuoteModal}
                     className="rounded-full bg-red-600 px-8 py-4 font-semibold text-white transition hover:bg-red-700"
                   >
-                    Request A Quote
+                    Get A Price
                   </button>
                   <a
                     href={`tel:${BUSINESS_DETAILS.phone.replace(/\s+/g, "")}`}
@@ -176,7 +176,7 @@ export default function ServicePage({ service }) {
                 onClick={openQuoteModal}
                 className="w-full rounded-full border border-white/20 px-10 py-4 font-semibold text-white transition hover:bg-white hover:text-black sm:w-auto"
               >
-                Request Free Quote
+                Get A Price
               </button>
             </div>
           </div>

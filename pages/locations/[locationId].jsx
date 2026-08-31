@@ -160,7 +160,7 @@ export default function LocationPage({ location }) {
                 onClick={openQuoteModal}
                 className="w-full rounded-full border border-white/20 px-10 py-4 font-semibold text-white transition hover:bg-white hover:text-black sm:w-auto"
               >
-                Request Free Quote
+                Get A Price
               </button>
             </div>
           </div>
